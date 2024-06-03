@@ -1,2 +1,2 @@
 # adev-site
- Alex DeVincenzo's Career
+ Just a practice about me / resume site to polish my html and css skills.
