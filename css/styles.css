@@ -76,6 +76,17 @@ footer a:hover {
 /* HOME */
 .home {
    background: url(../images/christopher-gower-m_HRfLhgABo-unsplash.jpg)  center / cover;
+   display: flex;
+   flex-direction: column;
+}
+
+.home .content-wrapper {
+   flex: 1 0 auto;
+}
+
+.bg-color {
+   background: rgba(218, 222, 230, 0.9);
+   padding: 20px;
 }
 
 main p:first-of-type {
@@ -85,9 +96,6 @@ main p:first-of-type {
 
 }
 
-.home .content-wrapper {
-   background: rgba(218, 222, 230, 0.9);
-}
 /* RESUME */
 
 .resume header::before {
@@ -103,6 +111,12 @@ main p:first-of-type {
 
 .resume-section h2 {
    border-bottom: 2px dashed #142f2aff;
+}
+
+.work-links {
+   color: #142f2aff;
+   font-weight: bold;
+   font-size: 20px;
 }
 
 .download-link {
