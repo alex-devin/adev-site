@@ -1,11 +1,147 @@
 /* CSS HEX - Color Palette
 --murrey: #82204aff;
---celadon: #acd8abff;
+--dark-green: #142f2aff;
 --light-blue: #bfe2e7ff;
 --gunmetal: #022d3dff;
 --platinum: #dadee6ff;
+
+RGB
+$murrey: rgba(130, 32, 74, 1);
+$dark-green: rgba(20, 47, 42, 1);
+$light-blue: rgba(191, 226, 231, 1);
+$gunmetal: rgba(2, 45, 61, 1);
+$platinum: rgba(218, 222, 230, 1);
  */
 
+/* GLOBAL STYLES */
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+html, body {
+   height: 100%;
+}
+
 body {
-   background-color: palegreen;
+   background: #dadee6ff;
+   margin: 0;
+}
+
+/* links*/
+a {
+   color: #82204aff;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+a:hover {
+   color: #022d3dff;
+   text-decoration: none;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+footer a {
+   color: #bfe2e7ff;
+   cursor: pointer;
+}
+
+footer a:hover {
+   color: #dadee6ff;
+   cursor: pointer;
+}
+
+.btn {
+   background: #82204aff;
+   color: #dadee6ff;
+   text-decoration: none;
+}
+
+.btn:hover {
+   color: #dadee6ff;
+   cursor: pointer;
+}
+
+.content-wrapper {
+   margin: 0 auto;
+   padding: 30px;
+   max-width: 900px;
+}
+
+/* HOME */
+.home {
+   background: url(../images/christopher-gower-m_HRfLhgABo-unsplash.jpg)  center / cover;
+}
+
+main p:first-of-type {
+   color: #82204aff;
+   font-weight: bold;
+   font-size: 20px;
+
+}
+
+.home .content-wrapper {
+   background: rgba(218, 222, 230, 0.9);
+}
+/* RESUME */
+
+.resume header::before {
+   background: url(../images/christopher-gower-m_HRfLhgABo-unsplash.jpg) center / cover;
+   content: '';
+   display: block;
+   height: 550px;
+}
+
+.resume-section {
+   margin-bottom: 50px;
+}
+
+.resume-section h2 {
+   border-bottom: 2px dashed #142f2aff;
+}
+
+.download-link {
+   position: fixed;
+   top: 5px;
+   left: 5px;
+}
+
+.project-item {
+   display: flow-root;
+   margin: 30px 0;
+}
+
+.project-item img {
+   height: 250px;
+   float: left;
+   margin-right: 15px;
+}
+/* Profile */
+/* Projects */
+/* Work Experience */
+/* Education */
+
+
+/* FOOTER */
+footer {
+   background: rgba(2, 45, 61, 1);
+   color: #dadee6ff;
+}
+
+.socials {
+   list-style-type: none;
+   padding: 0;
+}
+
+.socials li {
+   display: inline-block;
+}
+
+.socials img {
+   width: 32px;
 }

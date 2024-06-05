@@ -6,22 +6,25 @@
     <title>Alex DeVincenzo | Resume</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
+  <body class="resume">
+  <a class="btn download-link" href="alex_devincenzo_resume.pdf">Download Resume</a>
     <!-- //  INTRO  // -->
     <header>
-      <h1>Alex Devincenzo</h1>
-      <h2>Software Engineer</h2>
+      <div class="content-wrapper">
+        <h1>Alex Devincenzo</h1>
+        <h2>Software engineer | Electrical Engineer | Maker</h2>
+      </div>
     </header>
 
-    <main>
+    <main class="content-wrapper">
       <!-- //  PROFILE  // -->
-      <section>
+      <section class="resume-section">
         <h2>Profile</h2>
         <p>Add your resume summary/profile here. Add more paragraphs or links as needed.</p>
         <a href="index.html">Back to homepage</a>
       </section>
       <!-- //  WORK EXPERIENCE  // -->
-      <section>
+      <section class="resume-section">
         <h2>Work Experience</h2>
         <p>As a Full Stack Software Engineer at NBC Sports, I oversaw the development of a golf video streaming and subscription website, working on both front-end interfaces and back-end solutions. My responsibilities included managing databases, integrating video streaming, collaborating with UX/UI designers, and ensuring platform performance, security, and scalability. At HRSoft, I gathered customer requirements, configured software products, performed QA testing, managed defects, and designed web interfaces. Additionally, I developed testing solutions for infrared lighting in security cameras at Axis Communications AB. I also held leadership roles at Lund Technical University, facilitating student learning in technical subjects.</p>
         <section>
@@ -46,18 +49,18 @@
       </section>
 
       <!-- //  PROJECTS/PAPERS  // -->
-      <section>
+      <section class="resume-section">
         <h2>Published Papers</h2>
-        <section>
+        <section class="project-item">
           <h3>New Concepts for Infrared Tests in Production</h3>
-          <img src="images/wiremess_resized.png" srcset="images/wiremess.png 2x" alt="New Concepts for Infrared Tests in Production - Alex DeVincenzo and Marcus Christensson">
+          <img src="images/bachelorsthesiscover.png" alt="New Concepts for Infrared Tests in Production - Alex DeVincenzo and Marcus Christensson">
           <p>As part of my thesis at Axis Communications AB, I co-developed a new, efficient method for testing infrared light in security cameras. The existing process was cumbersome and required different apparatuses for various camera models. Our innovative solution, created with Marcus Christensson, features a universal test apparatus that integrates both hardware and software, eliminating the need for recalibration. The system, which is easy to use and compatible with Axis's TestStand software, was successfully built and tested, demonstrating promising results with actual Axis camera data.</p>
-          <a href="https://www.eit.lth.se/sprapport.php?uid=1147">New Concepts for Infrared Tests in Production</a>
+          <a class="btn" href="https://www.eit.lth.se/sprapport.php?uid=1147">Read Paper</a>
         </section>
       </section>
 
       <!-- //  EDUCATION & CERTIFICATIONS  // -->
-      <section>
+      <section class="resume-section">
         <h2>Education</h2>
         <section>
           <h3>Lund Technical University - Lund, Sweden</h3>
@@ -70,15 +73,15 @@
 
     <!-- //  FOOTER INFO, SOCIAL MEDIA  // -->
     <footer>
-      <!-- Start content edits below this line. -->
-      <p>© 2024 by Alex DeVincenzo | <a href="mailto:alex.devin91@gmail.com">alex.devin91@gmail.com</a></p>
-      <!-- Add or remove any networks. -->
-      <ul>
+      <p>© 2024 by Alex DeVincenzo | <a class="link-light" href="mailto:alex.devin91@gmail.com">alex.devin91@gmail.com</a></p>
+      <ul class="socials">
         <li>
-          <a href="https://www.linkedin.com/in/alex-devincenzo-434099150/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="LinkedInLogo"></a>
+          <a class="linkedInLogo" href="https://www.linkedin.com/in/alex-devincenzo-434099150/" target="_blank"><img src="images/icon-logo-linkedin.png" alt="LinkedInLogo"></a>
+        </li>
+        <li>
+          <a href="https://github.com/alex-devin" target="_blank"><img class="gitHubLogo" src="images/github-mark-white.png" alt="GitHubLogo"></a>
         </li>
       </ul>
-      <!-- End content edits here. -->
     </footer>
   </body>
 </html>
