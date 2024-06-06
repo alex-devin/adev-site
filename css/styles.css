@@ -1,17 +1,17 @@
-/* CSS HEX - Color Palette
---murrey: #82204aff;
---dark-green: #142f2aff;
+/* CSS HEX
+--murrey: #82284aff;
 --light-blue: #bfe2e7ff;
 --gunmetal: #022d3dff;
 --platinum: #dadee6ff;
+--viridian: #558564ff;
 
-RGB
-$murrey: rgba(130, 32, 74, 1);
-$dark-green: rgba(20, 47, 42, 1);
+SCSS RGB
+$murrey: rgba(130, 40, 74, 1);
 $light-blue: rgba(191, 226, 231, 1);
 $gunmetal: rgba(2, 45, 61, 1);
 $platinum: rgba(218, 222, 230, 1);
- */
+$viridian: rgba(85, 133, 100, 1);
+*/
 
 /* GLOBAL STYLES */
 
@@ -31,10 +31,15 @@ body {
    background: #dadee6ff;
    margin: 0;
    font-family: "Montserrat", sans-serif;
+   font-size: 16px;
 }
 
 h1, h2, h3 {
    font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+   color: #558564ff;
 }
 
 /* links*/
@@ -74,7 +79,7 @@ footer a:hover {
 
 .content-wrapper {
    margin: 0 auto;
-   padding: 30px;
+   padding: 15px;
    max-width: 900px;
 }
 
@@ -87,6 +92,15 @@ footer a:hover {
 
 .home .content-wrapper {
    flex: 1 0 auto;
+}
+
+.main-wrapper {
+   flex: 1 0 auto;
+   margin: 0 auto;
+   padding: 0 15px 15px;
+   max-width: 900px;
+   display: flex;
+   flex-direction: column;
 }
 
 .bg-color {
@@ -103,24 +117,24 @@ footer a:hover {
    height: 550px;
 }
 
-.resume-section {
+.resume-section, .education-section {
    margin-bottom: 50px;
 }
 
-.resume-section h2 {
+.resume-section .dashed-header, .education-section .dashed-header {
    border-bottom: 2px dashed #142f2aff;
 }
 
-.job {
+.job, .education {
    display: grid;
    grid-template-columns: 1fr 2fr;
    column-gap: 20px;
 }
 
 .work-links {
-   color: #142f2aff;
+   color: #558564;
    font-weight: bold;
-   font-size: 20px;
+   font-size: 17px;
 }
 
 .download-link {
@@ -170,4 +184,9 @@ footer {
 
 .socials img:hover {
    opacity: 0.7;
+}
+
+.socials .linkedInLogo img {
+   position: relative;
+   top: 3px;
 }
