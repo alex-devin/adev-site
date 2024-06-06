@@ -30,6 +30,11 @@ html, body {
 body {
    background: #dadee6ff;
    margin: 0;
+   font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+   font-family: "Roboto Mono", monospace;
 }
 
 /* links*/
@@ -89,13 +94,6 @@ footer a:hover {
    padding: 20px;
 }
 
-main p:first-of-type {
-   color: #82204aff;
-   font-weight: bold;
-   font-size: 20px;
-
-}
-
 /* RESUME */
 
 .resume header::before {
@@ -111,6 +109,12 @@ main p:first-of-type {
 
 .resume-section h2 {
    border-bottom: 2px dashed #142f2aff;
+}
+
+.job {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   column-gap: 20px;
 }
 
 .work-links {
