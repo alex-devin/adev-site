@@ -34,12 +34,26 @@ body {
    font-size: 16px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .btn {
    font-family: "Roboto Mono", monospace;
+}
+
+p {
+   line-height: 25px;
 }
 
 h1 {
    color: #558564ff;
+   margin: 5px;
+}
+
+h3 {
+   margin-top: 10px;
+}
+
+.dashed-header {
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 /* links*/
@@ -70,6 +84,14 @@ footer a:hover {
    background: #82204aff;
    color: #dadee6ff;
    text-decoration: none;
+   border: 2px solid #022d3dff;
+   border-radius: 8px;
+   padding: 5px;
+   text-align: center;
+   display: inline-block;
+   font-size: 14px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
 }
 
 .btn:hover {
@@ -145,7 +167,6 @@ footer a:hover {
 
 .project-item {
    display: flow-root;
-   margin: 30px 0;
 }
 
 .project-item img {
@@ -158,6 +179,13 @@ footer a:hover {
 /* Work Experience */
 /* Education */
 
+.education-section {
+   margin: 0;
+}
+
+.education {
+   margin: 0;
+}
 
 /* FOOTER */
 footer {
@@ -179,7 +207,7 @@ footer {
 }
 
 .socials img {
-   width: 32px;
+   height: 32px;
 }
 
 .socials img:hover {
@@ -189,4 +217,33 @@ footer {
 .socials .linkedInLogo img {
    position: relative;
    top: 3px;
+}
+
+/*EASTER EGG CAT PAGE */
+
+.easteregg-normal {
+   color: black;
+}
+
+.easteregg-header {
+   color: black;
+}
+
+.easteregg-link {
+   color: #558564ff;
+   font-weight: bold;
+   font-size: 17px;
+
+}
+
+.spooky {
+   margin-right: 20px;
+}
+
+.spooky-main {
+   display: flex;
+}
+
+.spooky img{
+   width: 500px;
 }
