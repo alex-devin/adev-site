@@ -148,14 +148,22 @@ footer a:hover {
 }
 
 .job, .education {
-   display: grid;
-   grid-template-columns: 1fr 2fr;
-   column-gap: 20px;
+   display: flex;
+   gap: 10px;
 }
 
 .job {
    margin: 15px 0;
 }
+
+.job-details {
+   min-width: 250px;
+}
+
+.education-details {
+   max-width: 250px;
+}
+
 .work-links {
    color: #558564;
    font-weight: bold;
@@ -168,20 +176,22 @@ footer a:hover {
    left: 5px;
 }
 
-.project-item {
-   display: flow-root;
+.published-paper {
+   display: flex;
+   gap: 50px;
 }
 
-.project-item img {
+.published-paper img {
    height: 250px;
    float: left;
    margin-right: 15px;
 }
-/* Profile */
-/* Projects */
-/* Work Experience */
-/* Education */
 
+.published-paper-details {
+   margin-top: -18px;
+}
+
+/* Education */
 .education-section {
    margin: 0;
 }
@@ -222,7 +232,7 @@ footer {
    top: 3px;
 }
 
-/*EASTER EGG CAT PAGE */
+/*  EASTER EGG CAT PAGE */
 
 .easteregg-normal {
    color: black;
@@ -249,4 +259,10 @@ footer {
 
 .spooky img{
    width: 500px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 560px) {
+
 }
