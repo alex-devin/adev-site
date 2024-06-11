@@ -281,6 +281,19 @@ footer {
       flex-direction: column;
    }
 
+   .published-paper img {
+      height: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      display: flex;
+      justify-content: space-around;
+   }
+
+   .published-paper-title {
+      margin: 5px;
+   }
+
    .download-link {
       position: absolute;
    }
