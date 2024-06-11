@@ -274,3 +274,53 @@ footer {
       padding: 10px;
    }
 }
+
+@media screen and (max-width:600px ) {
+   .published-paper {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .download-link {
+      position: absolute;
+   }
+
+   .education {
+      flex-direction: column;
+   }
+
+   .education-details {
+      max-width: none;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: space-between;
+   }
+
+   h3 {
+      margin: 0;
+   }
+
+   h2 {
+      font-size: 20px;
+   }
+
+   h1 {
+      font-size: 25px;
+   }
+
+   p {
+      margin: 5px;
+   }
+
+   .job {
+      flex-direction: column;
+   }
+
+   .job-details {
+      min-width: auto;
+      display: flex;
+      flex-direction: column;
+
+   }
+}
