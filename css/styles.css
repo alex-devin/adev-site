@@ -204,9 +204,6 @@ footer a:hover {
 footer {
    background: rgba(2, 45, 61, 1);
    color: #dadee6ff;
-   display: flex;
-   justify-content: space-between;
-   padding: 0 20px;
 }
 
 .socials {
@@ -263,6 +260,17 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 560px) {
+@media screen and (min-width: 560px) {
+   footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+   }
+}
 
+@media screen and (max-width: 559px) {
+   footer {
+      text-align: center;
+      padding: 10px;
+   }
 }
