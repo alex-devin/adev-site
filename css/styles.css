@@ -255,7 +255,7 @@ footer {
 }
 
 .spooky img{
-   width: 500px;
+   width: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -335,5 +335,16 @@ footer {
       display: flex;
       flex-direction: column;
 
+   }
+
+   .spooky-main {
+      flex-direction: column;
+   }
+
+   .about-spooky {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      /*justify-content: center;*/
    }
 }
