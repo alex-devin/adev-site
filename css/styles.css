@@ -258,6 +258,14 @@ footer {
    width: 100%;
 }
 
+#footer-cat {
+   width: 150px;
+   position: fixed;
+   bottom: -5px;
+   left: 80%;
+   display: none;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 560px) {
