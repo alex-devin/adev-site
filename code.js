@@ -1,6 +1,5 @@
 
 document.addEventListener("DOMContentLoaded", function() {
-    console.log('hello world');
     let cat1 = document.getElementById('cat-1')
     let cat2 = document.getElementById('cat-2')
     let catHead = document.getElementById('footer-cat')
